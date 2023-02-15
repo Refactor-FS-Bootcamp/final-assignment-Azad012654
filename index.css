@@ -1,0 +1,139 @@
+body{
+    background-color: #f0f2f5;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+.inputContainer{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    width: 70%;
+    flex-direction: column;
+    border: 2px solid black; 
+    padding: 10px 10px
+}
+.usernameInputContainer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.usernameInput{
+    resize: none;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 100%;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    height: 22px;
+    line-height: 16px;
+    vertical-align: middle;
+    margin: 25px 0;
+    font-family: sans-serif;
+}
+.commentInputContainer{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+.commentInput{
+    resize: none;
+    border-radius: 6px;
+    font-size: 17px;
+    padding: 14px 16px;
+    width: 100%;
+    border: 1px solid #dddfe2;
+    color: #1d2129;
+    height: 22px;
+    line-height: 16px;
+    vertical-align: middle;
+    font-family: sans-serif;
+}
+.addButton{
+    color: #fff;
+    background-color: #041b3a;
+    border: none;
+    font-size: 14px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 180px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+    margin-top: 50px;
+    transition: 200ms cubic-bezier(.08,.52,.52,1) background-color, 200ms cubic-bezier(.08,.52,.52,1) box-shadow, 200ms cubic-bezier(.08,.52,.52,1) transform;
+}
+.addButton:hover{
+    background-color: #4267b2;
+    border-color: #4267b2;
+}
+.comments{
+    background-color: #fff;
+}
+.like-button{
+    color: #fff;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: 200ms cubic-bezier(.08,.52,.52,1) background-color, 200ms cubic-bezier(.08,.52,.52,1) box-shadow, 200ms cubic-bezier(.08,.52,.52,1) transform;
+}
+.dislike-button{
+    color: #fff;
+    background-color: #1877f2;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: 200ms cubic-bezier(.08,.52,.52,1) background-color, 200ms cubic-bezier(.08,.52,.52,1) box-shadow, 200ms cubic-bezier(.08,.52,.52,1) transform;
+}
+.like-button:hover{
+    background-color: #4267b2;
+    border-color: #4267b2; 
+}
+.delete-button{
+    color: #fff;
+    background-color: #050606;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    line-height: 48px;
+    padding: 0 16px;
+    width: 332px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    white-space: nowrap;
+    transition: 200ms cubic-bezier(.08,.52,.52,1) background-color, 200ms cubic-bezier(.08,.52,.52,1) box-shadow, 200ms cubic-bezier(.08,.52,.52,1) transform;
+}
+.renderusername{
+    font-size: 40px;
+    color: rgb(75, 83, 84);
+}
+.dislike-button:hover{
+    background-color: #4267b2;
+    border-color: #4267b2; 
+}
+.delete-button:hover{
+    background-color: #d51929;
+    border-color: #4267b2; 
+}
